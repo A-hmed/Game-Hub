@@ -1,0 +1,338 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/Gamepage.js":
+/*!*************************!*\
+  !*** ./src/Gamepage.js ***!
+  \*************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _lol_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./lol.png */ "./src/lol.png");
+/* harmony import */ var _lol_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_lol_png__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./App */ "./src/App.js");
+/* harmony import */ var _p0_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./p0.png */ "./src/p0.png");
+/* harmony import */ var _p0_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_p0_png__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _p1_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./p1.jpg */ "./src/p1.jpg");
+/* harmony import */ var _p1_jpg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_p1_jpg__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _p2_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./p2.png */ "./src/p2.png");
+/* harmony import */ var _p2_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_p2_png__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _p3_jfif__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./p3.jfif */ "./src/p3.jfif");
+/* harmony import */ var _p3_jfif__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_p3_jfif__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _p4_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./p4.jpg */ "./src/p4.jpg");
+/* harmony import */ var _p4_jpg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_p4_jpg__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _p5_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./p5.jpg */ "./src/p5.jpg");
+/* harmony import */ var _p5_jpg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_p5_jpg__WEBPACK_IMPORTED_MODULE_8__);
+var _jsxFileName = "E:\\system analysis\\home\\home\\my-app\\src\\Gamepage.js";
+
+
+
+
+
+
+
+
+
+
+class Gamepage extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    let id = window.location.pathname.substr(1);
+    var games = [{
+      id: 0,
+      first: 'call of duty',
+      discreption: 'Fps',
+      releasedate: '20/10/1999',
+      img: _p0_png__WEBPACK_IMPORTED_MODULE_3___default.a
+    }, {
+      id: 1,
+      first: 'league of legends',
+      discreption: 'moba',
+      releasedate: '20/10/2003',
+      img: _p1_jpg__WEBPACK_IMPORTED_MODULE_4___default.a
+    }, {
+      id: 2,
+      first: 'assassins creed',
+      discreption: 'open world',
+      releasedate: '20/10/2007',
+      img: _p2_png__WEBPACK_IMPORTED_MODULE_5___default.a
+    }, {
+      id: 3,
+      first: 'control',
+      discreption: 'puzzels',
+      releasedate: '20/10/2019',
+      img: _p3_jfif__WEBPACK_IMPORTED_MODULE_6___default.a
+    }, {
+      id: 4,
+      first: 'CS-GO',
+      discreption: 'fps',
+      releasedate: '20/10/2005',
+      img: _p4_jpg__WEBPACK_IMPORTED_MODULE_7___default.a
+    }, {
+      id: 5,
+      first: 'watch dog',
+      discreption: 'open world',
+      releasedate: '20/10/2013',
+      img: _p5_jpg__WEBPACK_IMPORTED_MODULE_8___default.a
+    }];
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 60
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "container",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 61
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "box",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 62
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "img",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 63
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      className: "imag",
+      src: games[id].img,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 64
+      },
+      __self: this
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "desc",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 66
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 67
+      },
+      __self: this
+    }, games[id].first), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 68
+      },
+      __self: this
+    }, "LE 999.00"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 69
+      },
+      __self: this
+    }, "DESCRIPTION"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 70
+      },
+      __self: this
+    }, "Get the pickaxe and amaze your friends and enemies! The Pickaxe, also known as a harvesting tool, is a tool that players can use to mine and break materials in the world of Fortnite."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 75
+      },
+      __self: this
+    }, "In the visceral and dramatic single-player story campaign, the stakes have never been higher as players take on the role of lethal Tier One operators in a heart-racing saga that will affect the global balance of power."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 81
+      },
+      __self: this
+    }, "Experience the ultimate online playground with classic multiplayer."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 84
+      },
+      __self: this
+    }, "Squad-up and play cooperatively in a collection of elite operations accessible to all skill levels"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 88
+      },
+      __self: this
+    }, "Add To Cart")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "container",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 95
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "box",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 96
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+      className: "mag",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 97
+      },
+      __self: this
+    }, "Description"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      className: "mag",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 98
+      },
+      __self: this
+    }, "Whether you're playing Solo or Co-op with friends, League of Legends is a highly competitive, fast paced action-strategy game designed for those who crave a hard fought victory."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      className: "mag",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 102
+      },
+      __self: this
+    }, "Purchase Call of Duty\xAE: Modern Warfare\xAE on digital and receive the in-game XRK Weapons Pack for day 1 launch use. The XRK M4 assault rifle and XRK .357 handgun are built to be fast, accurate and hard hitting, giving you versatile options adaptable to any playstyle."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      className: "mag",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 108
+      },
+      __self: this
+    }, "In Call of Duty\xAE: Modern Warfare\xAE, players will be thrust into an immersive narrative spanning the entire game. Experience the ultimate online playground with classic multiplayer, or squad-up and play cooperatively in a collection of elite operations accessible to all skill levels."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      className: "mag",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 117
+      },
+      __self: this
+    }, "he stakes have never been higher as players take on the role of lethal Tier One operators in a heart-racing saga that will affect the global balance of power. Call of Duty\xAE: Modern Warfare\xAE engulfs fans in an incredibly raw, gritty, provocative narrative that brings unrivaled intensity and shines a light on the changing nature of modern war. Developed by the studio that started it all, Infinity Ward delivers an epic reimagining of the iconic Modern Warfare\xAE series from the ground up."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      className: "mag",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 128
+      },
+      __self: this
+    }, "\xA9 2019 Activision Publishing, Inc. ACTIVISION, CALL OF DUTY, CALL OF DUTY BLACK OPS and MODERN WARFARE are trademarks of Activision Publishing, Inc. All other trademarks and trade names are the properties of their respective owners"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "container",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 138
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "box",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 139
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+      className: "mag",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 140
+      },
+      __self: this
+    }, games[id].first + "System Requirements (Minimum)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+      className: "mag",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 141
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 142
+      },
+      __self: this
+    }, "CPU SPEED: 3 GHz processor (supporting SSE2 instruction set or higher)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 145
+      },
+      __self: this
+    }, "RAM: 2 GB"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 148
+      },
+      __self: this
+    }, "OS: Windows 7, Windows 8, or Windows 10 (Windows XP and Vista are no longer officially supported by Riot)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 152
+      },
+      __self: this
+    }, "VIDEO CARD: Shader version 2.0 capable video card"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 155
+      },
+      __self: this
+    }, "FREE DISK SPACE: 8 GB")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+      className: "mag",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 159
+      },
+      __self: this
+    }, games[id].first + "System Requirements (Minimum)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+      className: "mag",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 160
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 161
+      },
+      __self: this
+    }, "CPU SPEED: 3 GHz Dual-Core processor"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 164
+      },
+      __self: this
+    }, "RAM: 4 GB"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 167
+      },
+      __self: this
+    }, "OS: Windows 7, Windows 8, or Windows 10 (Windows XP and Vista are no longer officially supported by Riot)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 171
+      },
+      __self: this
+    }, "VIDEO CARD: Nvidia GeForce 8800/AMD Radeon HD 5670 or equivalent video card (Dedicated GPU with 512MB or higher Video Memory(VRAM))"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 176
+      },
+      __self: this
+    }, "FREE DISK SPACE: 12 GB")))));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Gamepage);
+
+/***/ })
+
+})
+//# sourceMappingURL=main.2ec8573910edcc6dadfe.hot-update.js.map
